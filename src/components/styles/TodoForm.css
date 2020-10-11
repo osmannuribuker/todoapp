@@ -1,0 +1,29 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: -15px;
+}
+
+.form input,
+button {
+  display: block;
+  height: 30px;
+}
+
+input {
+  width: calc(100% - 8px);
+}
+
+span {
+  display: block;
+  margin-bottom: 15px;
+}
+
+span:nth-child(1) {
+  margin-top: 15px;
+}
+
+button {
+  margin-top: 15px;
+}
